@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main h1{
+    color: aliceblue;
+}
+.boxes{
+    height: 150px;
+    width: 150px;
+    background-color: #1f3540;
+    display: flex;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.boxes img{
+    margin: 50px 50px;
+}
+button{
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #1f3540;
+    border: none;
+    color: antiquewhite;
+}
+.board{
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    display: flex;
+}
